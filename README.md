@@ -8,10 +8,10 @@ DOCTYPE<html>
     <title>Document</title>
 </head>
 <body>
-    <button Onclick="Ir site()">Clique aqui</button>
+    <button Onclick="Irsite()">Clique aqui</button>
 </body>
 <script>
-function Ir site(){
+function Irsite(){
     window.location.href="Untitled-1.html atuali.html 2.html"
 }
 
