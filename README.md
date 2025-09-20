@@ -9,7 +9,6 @@ DOCTYPE<html>
 </head>
 <body>
     <button Onclick="Irsite()">Clique aqui</button>
-</body>
 <script>
 function Irsite(){
     window.location.href="Untitled-1.html atuali.html 2.html"
@@ -17,4 +16,5 @@ function Irsite(){
 
 
 </script>
+</body>
 </html>
