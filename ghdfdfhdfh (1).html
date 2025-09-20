@@ -1,0 +1,105 @@
+
+    
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro ONG e Relatos</title>
+  <link rel="stylesheet" href="css.css">
+
+  <h1>Um serviço para comunidade litorânea</h1>
+  
+    
+ 
+  <nav>
+    
+  <button onclick="Projetos()">meus projetos</button>
+  <button onclick="Relatos()">Relatos</button>
+  <button onclick="Perfil()">Perfil</button>
+  <button onclick="Sobre()">Sobre projetos</button>
+  </nav>
+  </head>
+  <div id="Projetosir" style="display:none";>
+    <h2>Projetos que está participando:</h2>
+  </div>
+  <div id="Relatosi"style="display:none";>
+    <h1>Aqui estão relatos de moradores:</h1>
+</div>
+  <div id="Perfil2"style="display:none";>
+    <div class="container3">
+    <h3>Seu perfil:</h3>
+      <p>CNPJ:</p>
+    <div id="MostraCN"></div>
+    <p>Nome da ONG:</p>
+      <div id="NomeONGm"></div>
+     <p>Local onde atuo:
+      <div id= "Mostralocal"> </div>
+     </p>
+  </div>
+</div>
+  <div id="Sobre"style="display:none">
+    <div class="campos">
+    <div><h6>Se quer nos conhecer melhor:</h6>
+    <p>Este projeto foi fundado em um trabalho escolar realizado por um grupo de estudantes.
+      Neste projeto, foi criado este site com o objetivo de as Ongs terem melhor visão e acesso as causas dos moradores, e para
+       que estes tenham maior facilidade em poder relatar seus problemas. </p>
+ </div>
+ <div><h4>De onde somos: <somos:>
+ </h4>
+ <p> Somos da cidade de Marília, interior de São Paulo.
+</p></div>
+ <div><h5>Qual a importância deste assunto:</h5></div>
+ <p>Com pesquisas feitas pelo grupo, foi possível perceber que a poluição
+  afeta seres marinhos, tendo espécies sido encontradas com vestigios de microplásticos em seus organismos.
+  Nosso grupo, em seu aspecto geral, focou na poluição causada pelo desaguamento de rios poluidos no oceano.
+  Para conhecer mais: <a href="https://www.canva.com/design/DAGxGaIgVnc/PeUM7EBLbptn_tGKddIj7g/edit">clique aqui</a>
+ </p>
+ </div>
+ </div>
+  
+  <script>
+
+    function Projetos(){
+      document.getElementById("Projetosir").style.display="block"
+      document.getElementById("Relatosi").style.display="none"
+      document.getElementById("Perfil2").style.display="none"
+     container3.style.display="none";
+
+    }
+     function Relatos(){
+      document.getElementById("Relatosi").style.display="block"
+      document.getElementById("Perfil2").style.display="none"
+      document.getElementById("Projetosir").style.display="none"
+       container3.style.display="none";
+    }
+     function Perfil(){
+      document.getElementById("Perfil2").style.display="block";
+      const container3=document.querySelector(".container3");
+      container3.style.display="block";
+       document.getElementById("Projetosir").style.display="none"
+      document.getElementById("Relatosi").style.display="none"
+      document.getElementById("Sobre").style.display="none"
+      const NomedaONG=localStorage.getItem("NomedaONG")
+      const CNPJ=localStorage.getItem("CNPJa")
+      const Area=localStorage.getItem("áreaaatuação")
+      if(CNPJ){
+        document.getElementById("MostraCN").innerHTML = CNPJ;
+      }
+      if(NomedaONG){
+        document.getElementById("NomeONGm").innerHTML = NomedaONG;
+      }
+      if(Area){
+        document.getElementById("Mostralocal").innerHTML = Area;
+      }
+    }
+     function Sobre(){
+      document.getElementById("Sobre").style.display="block"
+      document.getElementById("Perfil2").style.display="none"
+      document.getElementById("Projetosir").style.display="none"
+      document.getElementById("Relatosi").style.display="none"
+      container3.style.display="none";  
+    }
+  </script>
+  <footer>
+    <p>Feito por: Davi</p>
+    <p>contato:--------</p>
+    <P>Para mais:.......</P>

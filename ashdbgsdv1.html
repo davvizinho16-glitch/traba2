@@ -1,0 +1,88 @@
+<html>
+    <html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro ONG e Relatos</title>
+  <link rel="stylesheet" href="css.css">
+  </head>
+  <body>
+    <h1>Um serviço para comunidade litorânea</h1>
+  <div id="VerONG" style="display:none"></div>  
+
+  <div id="Relatos"style="display:none"> </div>
+
+  
+</div>
+    <header>
+ 
+  <nav>
+    
+  <button onclick="VerONG()">Ver Ongs</button>
+  <button onclick="Relatos()">Relatos</button>
+  <button onclick="Perfil()">Perfil</button>
+  <button onclick="MeusRelatos()">Meu relato</button>
+
+  </nav>
+  
+<div class="container1">
+<div id="MeusRelatos"style="display:none"> 
+    <p> Meu relato: </p>
+    <div id="Mostrarinfo"></div>
+  </div>
+  </div>
+  <div id="Perfil"style="display:none"> 
+     <h3>Nome:</h3>
+     <div id="MostrarNome"></div>
+      <div><h4>Meu email:</h4>
+      <div id="MostrarEmail"></div></div>
+      <div><button id="MeuBotao" onclick="Cadastranovo()"> cadastrar de novo</button></div>
+  </div>
+</header>
+  <script>
+
+    function VerONG(){
+      document.getElementById("VerONG").style.display="block"
+    }
+     function Relatos(){
+      document.getElementById("Relatos").style.display="block";
+   
+
+    }
+     function Perfil(){
+      document.getElementById("Perfil").style.display="block";
+      const container1=document.querySelector(".container1");
+      container1.style.display="none";
+
+      const NomeM=localStorage.getItem("Nomedos");
+     
+      const email=localStorage.getItem("email");
+
+      if(email){
+        document.getElementById("MostrarEmail").innerHTML = email
+      } 
+      if(NomeM){
+        document.getElementById("MostrarNome").innerHTML = NomeM
+      }
+
+    }
+     function MeusRelatos(){
+      document.getElementById("MeusRelatos").style.display="block";
+      document.getElementById("Perfil").style.display="none";
+      const container1=document.querySelector(".container1");
+    if(container1){
+    container1.style.display="block";
+    }
+    const info=localStorage.getItem("probleminfo");
+    if(info){
+      document.getElementById("Mostrarinfo").innerHTML = info;
+
+    }
+   
+ } function Cadastranovo(){
+      window.location.href = "Untitled-1.html atuali.html 2.html";
+ }
+    
+
+    
+  </script>
+  </body>
