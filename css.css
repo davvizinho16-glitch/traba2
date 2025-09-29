@@ -105,7 +105,8 @@ nav button:hover {
   height: 200px;
   background:radial-gradient(rgb(117, 145, 197), rgb(135, 185, 214));
   border: 0.5px solid #88b7e6;
-  border-radius: 5px
+  border-radius: 5px;
+  justify-itens:center;
 
 }
 
@@ -208,5 +209,6 @@ footer{
     background: linear-gradient(rgb(243, 180, 87),#ff8fff);
     padding: 7px 12px;
     align-items: start;
+
 
 }
