@@ -7,6 +7,9 @@ que precisa de atenção e suporte às ONGs que o podem ajudar.
 Click no link para ir ao site e para baixar os arquivos:
 
 git clone [(https://github.com/davvizinho16-glitch/traba2)]
+
+Depois de baixados os arquivos, abra o site aqui:
+
 ## Contribuição
 
 1. Faça um fork do projeto
