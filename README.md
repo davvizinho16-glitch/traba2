@@ -8,9 +8,6 @@ Click no link para ir ao site e ppara baixar os arquivos:
 <script>
 
 git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/davvizinho16-glitch/traba2)
-cd seu-repositorio
-npm install
-```
   </script>
 
 ## Contribuição
