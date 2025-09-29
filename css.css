@@ -25,8 +25,7 @@ p{
   font-size: 15px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.MostrarInfo{display: block;
-  font-size: 24px;
+
   
 }
 head{
@@ -106,7 +105,8 @@ nav button:hover {
   background:radial-gradient(rgb(117, 145, 197), rgb(135, 185, 214));
   border: 0.5px solid #88b7e6;
   border-radius: 5px;
-  justify-itens:center;
+  justify-itens:start;
+  margin: auto;
 
 }
 
@@ -212,3 +212,4 @@ footer{
 
 
 }
+
