@@ -5,11 +5,8 @@ Descrição breve do projeto, explicando o objetivo principal e funcionalidades.
 ## Instalação
 
 Click no link para ir ao site e ppara baixar os arquivos:
-<script>
 
 git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/davvizinho16-glitch/traba2)
-  </script>
-
 ## Contribuição
 
 1. Faça um fork do projeto
