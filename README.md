@@ -4,9 +4,9 @@ O projeto ajuda ONGs a terem acesso a novos projetos e a ajudas que precisam ser
 que precisa de atenção e suporte às ONGs que o podem ajudar.
 ## Instalação
 
-Click no link para ir ao site e ppara baixar os arquivos:
+Click no link para ir ao site e para baixar os arquivos:
 
-git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/davvizinho16-glitch/traba2)
+git clone [(https://github.com/davvizinho16-glitch/traba2)]
 ## Contribuição
 
 1. Faça um fork do projeto
