@@ -1,7 +1,7 @@
 # Ajuda ao oceano
 
-Descrição breve do projeto, explicando o objetivo principal e funcionalidades.
-
+O projeto ajuda ONGs a terem acesso a novos projetos e a ajudas que precisam ser dadas, conectando ao mesmo tempo, o morador
+que precisa de atenção e suporte às ONGs que o podem ajudar.
 ## Instalação
 
 Click no link para ir ao site e ppara baixar os arquivos:
