@@ -73,12 +73,10 @@
       const container1=document.querySelector(".container1");
     if(container1){
     container1.style.display="block";
-   const info=localStorage.getItem("probleminfo");
-    }
-  
-    if(info){
+   const info=localStorage.getItem("probleminfo"); 
+        if(info){
       document.getElementById("Mostrarinfo").innerHTML = info;
-
+    }
     }
    
  } function Cadastranovo(){
@@ -90,5 +88,6 @@
   </script>
 
   </body>
+
 
 
